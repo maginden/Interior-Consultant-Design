@@ -1,0 +1,98 @@
+
+{
+  "app": {
+    "title": "Seu Consultor Pessoal de Design com IA",
+    "subtitle": "Envie uma foto, descreva sua visão e vamos criar o quarto dos seus sonhos juntos.",
+    "originalRoom": "Seu Quarto Original",
+    "originalRoomAlt": "Quarto original",
+    "selectStyle": "1. Inspire-se em um Estilo (Opcional)",
+    "describeVision": "2. Descreva Sua Visão",
+    "visionPlaceholder": "Ex: 'Deixe este quarto minimalista com um sofá de couro e uma planta grande.'",
+    "magic": "A IA está fazendo sua mágica...",
+    "compareDesigns": "Compare Seus Designs",
+    "chatTitle": "Converse com Seu Designer",
+    "footer": "Desenvolvido com Gemini. Construído para inspirar. By IndennitateDigital.it - Indennitate Maria Grazia"
+  },
+  "header": {
+    "title": "Consultor de Design de Interiores com IA"
+  },
+  "buttons": {
+    "generating": "Gerando...",
+    "reimagine": "Reimaginar Meu Quarto"
+  },
+  "uploader": {
+    "click": "Clique para enviar",
+    "drag": "ou arraste e solte",
+    "formats": "PNG, JPG, ou WEBP (MÁX. 10MB)"
+  },
+  "comparator": {
+    "original": "Original",
+    "generated": "Gerado",
+    "originalAlt": "Imagem original",
+    "generatedAlt": "Imagem gerada",
+    "sliderAria": "Controle deslizante de comparação de imagens"
+  },
+  "chat": {
+    "placeholder": "Ex: 'Pinte as paredes de cinza claro' ou 'Onde posso encontrar um sofá parecido?'",
+    "helperText": "Use <span class=\"font-semibold text-purple-600\">Refinar</span> para editar a imagem, ou <span class=\"font-semibold text-indigo-600\">Perguntar</span> para conselhos e ideias.",
+    "refinementPrefix": "(Refinamento de imagem)",
+    "refinementSuccess": "Aqui está o design atualizado com base no seu pedido."
+  },
+  "tooltips": {
+    "undo": "Desfazer (Ctrl+Z)",
+    "redo": "Refazer (Ctrl+Y)",
+    "refine": "Refinar a imagem atual com este comando",
+    "ask": "Faça uma pergunta ou peça ideias à IA",
+    "undoAria": "Desfazer alteração na imagem",
+    "redoAria": "Refazer alteração na imagem",
+    "refineAria": "Refinar Imagem",
+    "askAria": "Perguntar à IA",
+    "aboutAria": "Sobre este aplicativo"
+  },
+  "info": {
+    "title": "Sobre o Veravox AI Interior Design Consultant",
+    "subtitle": "Seu assistente pessoal com IA para reimaginar qualquer espaço.",
+    "howToUseTitle": "Como Usar",
+    "instructions": [
+      "Clique na área de upload ou arraste e solte uma foto do seu quarto.",
+      "Na caixa de texto, descreva as mudanças que você deseja. Seja específico! Exemplo: 'Quero um visual aconchegante e minimalista com um sofá cinza e piso de madeira.' Você também pode clicar em uma tag de estilo para começar.",
+      "Clique no botão 'Reimaginar Meu Quarto' e veja a IA criar uma nova versão do seu espaço.",
+      "Use o controle deslizante para comparar o antes e o depois. Converse com o assistente de IA para fazer mais ajustes ou pedir ideias de móveis.",
+      "Não tenha medo de experimentar! Use os botões de desfazer e refazer para navegar pelo seu histórico de design."
+    ],
+    "featuresTitle": "Principais Recursos",
+    "features": [
+      { "icon": "📸", "title": "Envie e Comece", "description": "Comece com uma foto de qualquer cômodo. Nossa IA começa a trabalhar instantaneamente." },
+      { "icon": "✍️", "title": "Descreva Sua Visão", "description": "Dê instruções à IA com comandos de texto. Mude cores, troque móveis ou altere o estilo inteiro." },
+      { "icon": "✨", "title": "Redesign Instantâneo", "description": "Veja como o Gemini gera uma nova versão fotorrealista e deslumbrante do seu quarto em segundos." },
+      { "icon": "↔️", "title": "Compare e Contraste", "description": "Use o controle deslizante interativo para comparar facilmente a foto original com seu novo design gerado por IA." },
+      { "icon": "💬", "title": "Refine com o Chat", "description": "Converse com seu assistente de IA para ajustar o design e obter sugestões de produtos compráveis." }
+    ],
+    "credit": "Feito com ❤️ por <span class=\"font-semibold text-indigo-600\">Indennitate Maria Grazia</span> (IndennitateDigital.it).",
+    "contactPrefix": "Para mais informações, entre em contato:"
+  },
+  "errors": {
+    "title": "Ocorreu um Erro",
+    "chatInit": "Falha ao inicializar o serviço de chat. Por favor, verifique sua chave de API.",
+    "chatInitFallback": "Estou com problemas para começar, mas estou pronto para ajudá-lo a refinar seu design!",
+    "imageGeneration": "Falha ao gerar a imagem. O modelo pode estar indisponível ou o conteúdo pode ser restrito. Tente um estilo ou imagem diferente.",
+    "imageRefinement": "Falha ao refinar a imagem. Por favor, tente novamente.",
+    "refinementResponse": "Desculpe, não consegui fazer essa alteração na imagem.",
+    "chatResponse": "Falha ao obter uma resposta do assistente de chat. Por favor, tente novamente.",
+    "chatConnection": "Desculpe, estou com problemas para me conectar no momento."
+  },
+  "designStyles": [
+    "Moderno de Meados do Século", "Escandinavo", "Industrial", "Boêmio", "Minimalista", "Litorâneo", "Rústico", "Art Déco", "Contemporâneo"
+  ],
+  "loadingMessages": [
+    "Analisando o layout do seu quarto...", "Selecionando a paleta de cores perfeita...", "Buscando inspiração para seu novo estilo...", "Arranjando móveis virtuais...", "Adicionando toques de designer...", "Renderizando a imagem fotorrealista final...", "Ajustando os detalhes, só para você..."
+  ],
+  "prompts": {
+    "styleBased": "Reimagine este quarto em um estilo {{style}}."
+  },
+  "gemini": {
+    "systemInstruction": "Você é um assistente especialista em design de interiores, proativo e cheio de ideias. O usuário acabou de gerar uma nova versão de seu quarto com base em suas instruções. Seu papel principal é ajudá-lo a mobiliar e aperfeiçoar este novo design. Em sua primeira mensagem, após uma saudação breve e amigável, sugira proativamente 2-3 itens específicos de mobiliário ou decoração que complementariam o novo design. Para cada item, forneça um link de compra simulado usando este formato Markdown exato:\n**Nome do Produto:** [Nome do Item]\n**Descrição:** [Descrição breve e atraente]\n**Compre em:** [Nome de Loja Plausível]\n\nApós suas sugestões iniciais, continue a ser prestativo, responder perguntas, dar conselhos de design e sugerir mais itens quando apropriado. Mantenha sempre suas respostas concisas, amigáveis e inspiradoras.",
+    "initialChatMessage": "Este novo design ficou ótimo! Você pode me dar algumas ideias iniciais de móveis e decoração?",
+    "generationSuffix": "Mantenha o layout original do quarto e a disposição dos móveis principais, mas altere as cores das paredes, o estilo dos móveis, os tecidos, as decorações e a iluminação para corresponder vividamente à nova descrição. O resultado deve ser uma imagem fotorrealista."
+  }
+}

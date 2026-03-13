@@ -1,0 +1,98 @@
+
+{
+  "app": {
+    "title": "Your Personal AI Design Consultant",
+    "subtitle": "Upload a photo, describe your vision, and let's create your dream room together.",
+    "originalRoom": "Your Original Room",
+    "originalRoomAlt": "Original room",
+    "selectStyle": "1. Get Inspired by a Style (Optional)",
+    "describeVision": "2. Describe Your Vision",
+    "visionPlaceholder": "e.g., 'Make this room minimalist with a leather sofa and a large plant.'",
+    "magic": "AI is working its magic...",
+    "compareDesigns": "Compare Your Designs",
+    "chatTitle": "Chat with Your Designer",
+    "footer": "Powered by Gemini. Built for inspiration. By IndennitateDigital.it - Indennitate Maria Grazia"
+  },
+  "header": {
+    "title": "AI Interior Design Consultant"
+  },
+  "buttons": {
+    "generating": "Generating...",
+    "reimagine": "Reimagine My Room"
+  },
+  "uploader": {
+    "click": "Click to upload",
+    "drag": "or drag and drop",
+    "formats": "PNG, JPG, or WEBP (MAX. 10MB)"
+  },
+  "comparator": {
+    "original": "Original",
+    "generated": "Generated",
+    "originalAlt": "Original image",
+    "generatedAlt": "Generated image",
+    "sliderAria": "Image comparison slider"
+  },
+  "chat": {
+    "placeholder": "e.g., 'Make the walls light gray' or 'Where can I find a similar sofa?'",
+    "helperText": "Use <span class=\"font-semibold text-purple-600\">Refine</span> to edit the image, or <span class=\"font-semibold text-indigo-600\">Ask</span> for advice and ideas.",
+    "refinementPrefix": "(Image refinement)",
+    "refinementSuccess": "Here is the updated design based on your request."
+  },
+  "tooltips": {
+    "undo": "Undo (Ctrl+Z)",
+    "redo": "Redo (Ctrl+Y)",
+    "refine": "Refine the current image with this prompt",
+    "ask": "Ask the AI a question or for ideas",
+    "undoAria": "Undo image change",
+    "redoAria": "Redo image change",
+    "refineAria": "Refine Image",
+    "askAria": "Ask AI",
+    "aboutAria": "About this app"
+  },
+  "info": {
+    "title": "About Veravox AI Interior Design Consultant",
+    "subtitle": "Your personal AI-powered assistant for reimagining any space.",
+    "howToUseTitle": "How to Use",
+    "instructions": [
+      "Click the upload area or drag and drop a photo of your room.",
+      "In the text box, describe the changes you want. Be specific! Example: 'Give me a cozy, minimalist look with a gray sofa and wooden floors.' You can also click a style tag to get started.",
+      "Hit the 'Reimagine My Room' button and watch the AI create a new version of your space.",
+      "Use the slider to compare the before-and-after. Chat with the AI assistant to make further tweaks or ask for furniture ideas.",
+      "Don't be afraid to experiment! Use the undo and redo buttons to navigate through your design history."
+    ],
+    "featuresTitle": "Key Features",
+    "features": [
+      { "icon": "📸", "title": "Upload & Go", "description": "Start with a photo of any room. Our AI gets to work instantly." },
+      { "icon": "✍️", "title": "Describe Your Vision", "description": "Direct the AI with text prompts. Change colors, swap furniture, or alter the entire style." },
+      { "icon": "✨", "title": "Instant Redesign", "description": "Watch as Gemini generates a stunning, photorealistic new version of your room in seconds." },
+      { "icon": "↔️", "title": "Compare & Contrast", "description": "Use the interactive slider to easily compare the original photo with your new AI-generated design." },
+      { "icon": "💬", "title": "Refine with Chat", "description": "Talk to your AI assistant to tweak the design and get shoppable product suggestions." }
+    ],
+    "credit": "Made with ❤️ by <span class=\"font-semibold text-indigo-600\">Indennitate Maria Grazia</span> (IndennitateDigital.it).",
+    "contactPrefix": "For inquiries, contact:"
+  },
+  "errors": {
+    "title": "An Error Occurred",
+    "chatInit": "Failed to initialize the chat service. Please check your API key.",
+    "chatInitFallback": "I'm having trouble getting started, but I'm ready to help you refine your design!",
+    "imageGeneration": "Failed to generate the image. The model may be unavailable or the content may be restricted. Please try a different style or image.",
+    "imageRefinement": "Failed to refine the image. Please try again.",
+    "refinementResponse": "I'm sorry, I was unable to make that change to the image.",
+    "chatResponse": "Failed to get a response from the chat assistant. Please try again.",
+    "chatConnection": "I'm sorry, I'm having trouble connecting at the moment."
+  },
+  "designStyles": [
+    "Mid-Century Modern", "Scandinavian", "Industrial", "Bohemian", "Minimalist", "Coastal", "Farmhouse", "Art Deco", "Contemporary"
+  ],
+  "loadingMessages": [
+    "Analyzing your room's layout...", "Selecting the perfect color palette...", "Gathering inspiration for your new style...", "Arranging virtual furniture...", "Adding designer touches...", "Rendering the final, photorealistic image...", "Polishing the details, just for you..."
+  ],
+  "prompts": {
+    "styleBased": "Reimagine this room in a {{style}} style."
+  },
+  "gemini": {
+    "systemInstruction": "You are an expert interior design assistant, proactive and full of ideas. The user has just generated a new version of their room based on their instructions. Your primary role is to help them furnish and perfect this new design. In your first message, after a brief, friendly greeting, proactively suggest 2-3 specific furniture or decor items that would complement the new design. For each item, provide a simulated shoppable link using this exact Markdown format:\n**Product Name:** [Item Name]\n**Description:** [Brief, compelling description]\n**Shop at:** [Plausible Store Name]\n\nAfter your initial suggestions, continue to be helpful, answer questions, provide design advice, and suggest more items when appropriate. Always keep your responses concise, friendly, and inspiring.",
+    "initialChatMessage": "This new design looks great! Can you give me some initial ideas for furniture and decor?",
+    "generationSuffix": "Maintain the original room layout and core furniture placement, but alter the wall colors, furniture style, textiles, decorations, and lighting to vividly match the new description. The output should be a photorealistic image."
+  }
+}
